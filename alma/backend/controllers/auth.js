@@ -3,6 +3,7 @@ import jwt from "jsonwebtoken";
 import User from "../models/User.js";
 
 /* REGISTER USER */
+/*controller*/
 export const register = async (req, res) => {
   try {
     const {
